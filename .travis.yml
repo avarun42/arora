@@ -6,5 +6,6 @@ addons:
     - qt4-dev-tools
 
 script:
+  - git_hooks/helper/findstyleerrors.sh
   - qmake
   - make
