@@ -1,0 +1,10 @@
+language: cpp
+
+addons:
+  apt:
+    packages:
+    - qt4-dev-tools
+
+script:
+  - qmake
+  - make
